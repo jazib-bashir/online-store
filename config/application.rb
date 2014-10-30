@@ -20,8 +20,6 @@ module Hadean
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '0.11.0'
 
-    config.assets.initialize_on_precompile = false
-
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
     config.autoload_paths += %W(#{config.root}/app/models/ror_e_reports)
